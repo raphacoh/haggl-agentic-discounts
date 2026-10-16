@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "haggl-ai": {
+      "type": "http",
+      "url": "https://www.haggl.ai/api/mcp"
+    }
+  }
+}

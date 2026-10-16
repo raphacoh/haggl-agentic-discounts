@@ -1,0 +1,16 @@
+{
+  "name": "haggl.ai",
+  "owner": {
+    "name": "haggl.ai",
+    "email": "contact@haggl.ai",
+    "url": "https://www.haggl.ai"
+  },
+  "description": "haggl.ai plugins for Claude Code and Cowork.",
+  "plugins": [
+    {
+      "name": "haggl-agentic-discounts",
+      "source": "./",
+      "category": "shopping"
+    }
+  ]
+}

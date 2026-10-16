@@ -1,0 +1,18 @@
+{
+  "name": "haggl-agentic-discounts",
+  "displayName": "haggl.ai agentic discounts",
+  "version": "0.1.0",
+  "description": "Ask a merchant's sales agent on haggl.ai for an offer when you want a discount at that store. Bundles the haggl.ai connector, a skill, and a hook that checks before a Shop checkout whether the store is on haggl.ai, sending only the store's domain.",
+  "author": {
+    "name": "haggl.ai",
+    "email": "contact@haggl.ai",
+    "url": "https://www.haggl.ai"
+  },
+  "homepage": "https://www.haggl.ai/agentic-discounts",
+  "license": "MIT",
+  "keywords": ["shopping", "discounts", "offers", "checkout", "shop", "haggl.ai"],
+  "documentationUrl": "https://www.haggl.ai/agentic-discounts",
+  "supportUrl": "https://www.haggl.ai/support",
+  "privacyPolicyUrl": "https://www.haggl.ai/privacy",
+  "termsOfServiceUrl": "https://www.haggl.ai/tos"
+}

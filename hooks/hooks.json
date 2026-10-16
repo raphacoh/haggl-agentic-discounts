@@ -1,0 +1,17 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "^(mcp__(plugin_shop_shop|[Ss]hop|claude_ai_[Ss]hop(_[A-Za-z0-9-]+)*)__)?(create|update)_checkout$",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"${CLAUDE_PLUGIN_ROOT}/hooks/shop-checkout.mjs\"",
+            "timeout": 5,
+            "statusMessage": "Checking whether this store is on haggl.ai"
+          }
+        ]
+      }
+    ]
+  }
+}
