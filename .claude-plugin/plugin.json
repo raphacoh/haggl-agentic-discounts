@@ -1,7 +1,7 @@
 {
   "name": "haggl-agentic-discounts",
   "displayName": "haggl.ai agentic discounts",
-  "version": "0.1.0",
+  "version": "0.4.1",
   "description": "Ask a merchant's sales agent on haggl.ai for an offer when you want a discount at that store. Bundles the haggl.ai connector, a skill, and a hook that checks before a Shop checkout whether the store is on haggl.ai, sending only the store's domain.",
   "author": {
     "name": "haggl.ai",
